@@ -1,0 +1,47 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>D:/Users\Lucas\Programas\Atmel\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>D:\Users\Lucas\Programas\Atmel\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>D:/Users\Lucas\Programas\Atmel\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE>
+  <FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\Debug\nested_arith_op.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>nested_arith_op.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>nested_arith_op.map</FILE>
+  <FILE>nested_arith_op.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\main.asm</FILE><LINE>6</LINE></start>
+  <start_macros><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>4</LINE></start_macros>
+  <pause_R16_us_><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE><LINE>41</LINE></pause_R16_us_>
+  <pause_R16_us_loop_><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE><LINE>43</LINE></pause_R16_us_loop_>
+  <pause_R16_us_end_><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE><LINE>52</LINE></pause_R16_us_end_>
+  <pause_R16_ms_><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE><LINE>55</LINE></pause_R16_ms_>
+  <pause_R16_ms_loop_><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE><LINE>56</LINE></pause_R16_ms_loop_>
+  <pause_R16_ms_fim_><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\delays.inc</FILE><LINE>69</LINE></pause_R16_ms_fim_>
+  <tabela_3_mantissas><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>190</LINE></tabela_3_mantissas>
+  <tabela_4_mantissas><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>193</LINE></tabela_4_mantissas>
+  <tabela_5_mantissas><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>196</LINE></tabela_5_mantissas>
+  <tabela_6_mantissas><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>199</LINE></tabela_6_mantissas>
+  <tabela_1><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>202</LINE></tabela_1>
+  <tabela_menor_4><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>218</LINE></tabela_menor_4>
+  <tabela_entre_4_e_7><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>234</LINE></tabela_entre_4_e_7>
+  <tabela_maior_que_7><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\macros.inc</FILE><LINE>250</LINE></tabela_maior_que_7>
+  <pega_tabela><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\main.asm</FILE><LINE>309</LINE></pega_tabela>
+  <final_cod><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\main.asm</FILE><LINE>303</LINE></final_cod>
+  <tabela><FILE>D:\Users\Lucas\PUCPR\9ºSemestre\LFC - Linguagens Formais e Compiladores\Operações Aritméticas Aninhadas\nested_arith_op\main.asm</FILE><LINE>306</LINE></tabela>
+ </LABELS>
+</ASSEMBLER_INFO>
