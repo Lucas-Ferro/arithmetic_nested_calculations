@@ -41,7 +41,7 @@ There are 3 types of output.
 	style 2 fill:#d62929;
 	style 1 fill:#d62929;
 	style . fill:yellow;
-	style Done fill:lightgreen;
+	style Done fill:green;
 	```
 	The blue LED shows when the result is negative, the red LEDs show the result's binary form, the yellow LED represent the "." and finally the green LED shows when the ouput is over.
 	
@@ -80,7 +80,7 @@ There are 3 types of output.
 	2 --> 1
 	1 --> .
 	. --> Done
-	style . fill:yellow;
+	style . fill:darkyellow;
 	```
 	<p align="center"><strong>Push button</strong></p>
 	
@@ -105,7 +105,7 @@ There are 3 types of output.
 	2 --> 1
 	1 --> .
 	. --> Done
-	style Done fill:lightgreen;
+	style Done fill:green;
 	```
 		
 2. **Timer**
