@@ -57,7 +57,7 @@ There are 3 types of output.
 	. --> Done
 	style 1 fill:#d62929;
 	```
-	**Push button**
+	<p align="center"><strong>Push button</strong></p>
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -69,7 +69,7 @@ There are 3 types of output.
 	style 4 fill:#d62929;
 	style 1 fill:#d62929;
 	```
-	**Push button**
+	<p align="center"><strong>Push button</strong></p>
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -80,7 +80,7 @@ There are 3 types of output.
 	. --> Done
 	style . fill:yellow;
 	```
-	**Push button**
+	<p align="center"><strong>Push button</strong></p>
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -92,7 +92,7 @@ There are 3 types of output.
 	style 2 fill:#d62929;
 	style 1 fill:#d62929;
 	```
-	**Push button**
+	<p align="center"><strong>Push button</strong></p>
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -115,9 +115,9 @@ There are 3 types of output.
 > **ATTENTION:**
 > When chosing the desired output method be aware of the ports compatibility bellow:
 > 
-> **Button** : PB, PC 
-> **Timer** : PB, PC
-> **Display** : PB, PD
+> **Button** : PB, PC <br />
+> **Timer** : PB, PC <br />
+> **Display** : PB, PD <br />
 
 ## Runing
 
