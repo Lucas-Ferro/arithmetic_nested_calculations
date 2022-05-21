@@ -82,12 +82,13 @@ class Helper : public IHelper{
       //Check if operation is possible
       string n1 = entries[2];
       string n2 = entries[1];
-      bool hasFloat = (n1.find('.') != string::npos) ? true : ((n2.find('.') != string::npos) ? true : false);
+      bool hasFloat1 = n1.find('.') != string::npos;
+      bool hasFloat2 = n2.find('.') != string::npos;
       //cout << "hasFloat: " << hasFloat << "\n";
       float num1 = n1=="R16" ? this->lastResult : stof(n1);
       float num2 = n2=="R16" ? this->lastResult : stof(n2);
 
-      int isValid = this->isValidOperation(num1,num2,method,hasFloat);
+      int isValid = this->isValidOperation(num1,num2,method,hasFloat1, hasFloat2);
       if(isValid != 0){
         cout << (isValid == 2 ? "Operation surpassed the threshold of 1.0 <= |result| <= 15.9! \n" : "Invalid use of float in power or remainder! \n");
         return false;
@@ -165,7 +166,7 @@ class Helper : public IHelper{
     int cont = 0;
     float lastResult = -1;
 
-    int isValidOperation(float x, float y, string method, bool hasFloat){
+    int isValidOperation(float x, float y, string method, bool hasFloat1, bool hasFloat2){
       float result;
       if(method == "+")
         result = x+y;
@@ -175,9 +176,9 @@ class Helper : public IHelper{
         result = x*y;
       else if(method == "/")
         result = x/y;
-      else if(method == "%" && hasFloat == false)
+      else if(method == "%" && hasFloat1 == false && hasFloat2 == false)
         result = static_cast<int>(x)%static_cast<int>(y);
-      else if(method == "**" && hasFloat == false)
+      else if(method == "**" && hasFloat2 == false)
         result = pow(x,y);
       else
         return 1;

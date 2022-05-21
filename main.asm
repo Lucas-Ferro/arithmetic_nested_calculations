@@ -46,7 +46,7 @@ sum R26, R27, R16, R17
 LDI R25, 0
 
 separa_inteiro_decimal R26, R16
-mostra_resultado_display
+mostra_resultado_botao
 
 ;Expected output = 15
 ; --------------- PROGRAM END ---------------
@@ -184,7 +184,7 @@ LDI R25, 0
 PUSH R16
 PUSH R26
 LDI R16, 2
-LDI R26, 0
+LDI R26, 1
 passa_pra_iee R16, R26
 PUSH R17
 PUSH R27
@@ -193,12 +193,12 @@ POP R16
 POP R27
 POP R17
 potencia R26, R27, R16, R17
-LDI R25, 1
+LDI R25, 0
 
 separa_inteiro_decimal R26, R16
 mostra_resultado_display
 
-;Expected output = 4
+;Expected output = 4.41
 ; --------------- PROGRAM END ---------------
 
 LDI R16, 5
@@ -292,12 +292,12 @@ POP R16
 POP R27
 POP R17
 mult R26, R27, R16, R17
-LDI R25, 0
+LDI R25, 1
 
 separa_inteiro_decimal R26, R16
-mostra_resultado_display
+mostra_resultado_temp
 
-;Expected output = 6.275
+;Expected output = -6.275
 ; --------------- PROGRAM END ---------------
 
 final_cod:

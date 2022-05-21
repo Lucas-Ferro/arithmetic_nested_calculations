@@ -15,7 +15,7 @@ private:
     int cont;
     float lastResult;
 
-    int isValidOperation(float x, float y, std::string method);
+    int isValidOperation(float x, float y, std::string method, bool hasFloat1, bool hasFloat2);
     std::string add(std::string n1, std::string n2, bool flipSignal);
     std::string subtract(std::string n1, std::string n2, bool negative);
     std::string multiply(std::string n1, std::string n2, bool negative);

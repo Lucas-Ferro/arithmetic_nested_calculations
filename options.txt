@@ -1,4 +1,4 @@
 (Program (Output PC Botao (3 (4 (1.8 1.2 +) *) +)))
 (Program (Output PD Display (12.4 (3 (10.5 (5 2.3 +) -) *) /)))
-(Program (Output PB Temporizador (-2 (5 (12 (3 (10 (5 2 +) -) *) %) -) **)))
-(Program (Output PB Temporizador (-3 (1.2 (2 (12.4 (3 (10.5 (5 2.3 +) -) *) /) +) -) *)))
+(Program (Output PB Display (-2.1 (5 (12 (3 (10 (5 2 +) -) *) %) -) **)))
+(Program (Output PB Temporizador (3 (1.2 (2 (12.4 (3 (10.5 (5 2.3 +) -) *) /) +) -) *)))
