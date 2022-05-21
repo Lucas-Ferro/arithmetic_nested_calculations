@@ -58,6 +58,7 @@ There are 3 types of output.
 	style 1 fill:#d62929;
 	```
 	<p align="center"><strong>Push button</strong></p>
+	
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -70,6 +71,7 @@ There are 3 types of output.
 	style 1 fill:#d62929;
 	```
 	<p align="center"><strong>Push button</strong></p>
+	
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -81,6 +83,7 @@ There are 3 types of output.
 	style . fill:yellow;
 	```
 	<p align="center"><strong>Push button</strong></p>
+	
 	``` mermaid
 	flowchart LR 
 	- --> 8  
@@ -93,6 +96,7 @@ There are 3 types of output.
 	style 1 fill:#d62929;
 	```
 	<p align="center"><strong>Push button</strong></p>
+	
 	``` mermaid
 	flowchart LR 
 	- --> 8  
