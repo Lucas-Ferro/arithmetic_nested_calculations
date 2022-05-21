@@ -25,6 +25,7 @@ Bellow are some examples of input:
 ## Output
 There are 3 types of output.
 1. **Button**
+
 		The button output works by showing the *result* binary form via LEDs.  There are 7 LEDs:
 	``` mermaid
 	flowchart LR 
@@ -121,9 +122,11 @@ There are 3 types of output.
 	```
 		
 2. **Timer**
+
 	The Timer output follows basically the same logic as the Button but instead of requiring the user to push the buttons so that the next number appears it does that automattically every 1 second.
 	
 3. **Display**
+
 	The Display output is simply three 7-segment displays showing the result with the blue LED turning on when the result is negative.
 
   <br />
