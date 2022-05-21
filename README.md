@@ -35,17 +35,29 @@ There are 3 types of output.
 	1 --> .
 	. --> Done
 	
-	style - fill:cyan;
+	style - fill:blue;
 	style 8 fill:#d62929;
 	style 4 fill:#d62929;
 	style 2 fill:#d62929;
 	style 1 fill:#d62929;
-	style . fill:#ffba00;
+	style . fill:#yellow;
 	style Done fill:green;
 	```
 	The blue LED shows when the result is negative, the red LEDs show the result's binary form, the yellow LED represent the "." and finally the green LED shows when the ouput is over.
 	
-	So for instance, let us have the result be 15.3 . The sequence of LEDs displayed would be:
+	So for instance, let us have the result be -15.3 . The sequence of LEDs displayed would be:
+	
+	``` mermaid
+	flowchart LR 
+	- --> 8  
+	8 --> 4  
+	4 --> 2
+	2 --> 1
+	1 --> .
+	. --> Done
+	style 1 fill:#d62929;
+	```
+	<p align="center"><strong>1 second</strong></p>
 	
 	``` mermaid
 	flowchart LR 
@@ -80,7 +92,7 @@ There are 3 types of output.
 	2 --> 1
 	1 --> .
 	. --> Done
-	style . fill:#ffba00;
+	style . fill:#yellow;
 	```
 	<p align="center"><strong>Push button</strong></p>
 	
