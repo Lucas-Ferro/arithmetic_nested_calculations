@@ -26,7 +26,7 @@ Bellow are some examples of input:
 There are 3 types of output.
 1. **Button**
 
-		The button output works by showing the *result* binary form via LEDs.  There are 7 LEDs:
+	The button output works by showing the *result* binary form via LEDs.  There are 7 LEDs:
 	``` mermaid
 	flowchart LR 
 	- --> 8  
